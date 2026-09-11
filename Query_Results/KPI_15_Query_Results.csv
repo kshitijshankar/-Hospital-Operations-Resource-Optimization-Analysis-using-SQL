@@ -1,0 +1,16 @@
+﻿Query_ID,Analysis_Name,total_unique_patients,total_admissions,avg_admissions_per_patient,total_bed_capacity,bed_occupancy_rate,active_departments,avg_admissions_per_department,admissions_per_doctor,total_hospital_revenue,average_bill_value,outstanding_bill_amount,total_diagnostic_tests,abnormal_test_rate,low_stock_drug_rate,total_prescription_volume
+KPI01,TOTAL UNIQUE PATIENTS What is the count of distinct patient_id in the patient table? ----------------------------------------------------------------,30000,,,,,,,,,,,,,,
+KPI02,TOTAL ADMISSIONS What is the total number of records in the admission table? ----------------------------------------------------------------,,45000,,,,,,,,,,,,,
+KPI03,AVERAGE ADMISSIONS PER PATIENT What is the ratio between total admissions and unique patients? -------------------------------------------------------,,,1.93,,,,,,,,,,,,
+KPI04,TOTAL BED CAPACITY What is the sum of total_beds across all wards? ----------------------------------------------------------------,,,,415,,,,,,,,,,,
+KPI05,BED OCCUPANCY RATE What percentage of beds have bed_status = 'Occupied' compared with total beds? ----------------------------------------------------,,,,,65.06,,,,,,,,,,
+KPI06,TOTAL ACTIVE DEPARTMENTS What is the number of departments whose status indicates that they are active? ----------------------------------------------,,,,,,11,,,,,,,,,
+KPI07,AVERAGE ADMISSIONS PER DEPARTMENT What is the average number of admissions across departments? -------------------------------------------------------,,,,,,,7500,,,,,,,,
+KPI08,DOCTOR TO ADMISSION RATIO What is the ratio of total admissions to total doctors? ----------------------------------------------------------------,,,,,,,,459.18,,,,,,,
+KPI09,TOTAL HOSPITAL REVENUE What is the sum of total_amount from the billing table? ----------------------------------------------------------------,,,,,,,,,1684246109,,,,,,
+KPI10,AVERAGE BILL VALUE What is the average of total_amount in the billing table? ----------------------------------------------------------------,,,,,,,,,,37427.69,,,,,
+KPI11,OUTSTANDING BILL AMOUNT What is the total patient_payable_amount for bills that have not been paid? --------------------------------------------------,,,,,,,,,,,356395247.6,,,,
+KPI12,TOTAL DIAGNOSTIC TESTS PERFORMED What is the total number of records in patient_diagnostic? ----------------------------------------------------------,,,,,,,,,,,,63269,,,
+KPI13,ABNORMAL DIAGNOSTIC TEST RATE What percentage of diagnostic records have result_status = 'Abnormal'? -------------------------------------------------,,,,,,,,,,,,,50.3,,
+KPI14,LOW STOCK DRUG RATE What percentage of inventory records have inventory_status = 'Low'? --------------------------------------------------------------,,,,,,,,,,,,,,17.6,
+KPI15,TOTAL PRESCRIPTION VOLUME How many prescriptions have been issued by the hospital? ----------------------------------------------------------------,,,,,,,,,,,,,,,73109
